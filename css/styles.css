@@ -20,7 +20,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -70,7 +70,6 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  text-align: center;
   color: #ffffff;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -79,7 +78,6 @@ a {
 .button-studio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  text-align: center;
   background-color: #4d5ae5;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -87,8 +85,8 @@ a {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-studio:hover,
+.button-studio:focus {
   background-color: #404bbf;
 }
 
@@ -114,7 +112,6 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
   line-height: 1.11;
@@ -131,7 +128,6 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
@@ -140,11 +136,12 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
   color: #434455;
   letter-spacing: 0.02em;
 }
-
+.members-list {
+  background-color: #ffffff;
+}
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
@@ -155,8 +152,6 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -168,8 +163,6 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -194,8 +187,6 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
