@@ -7,37 +7,25 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* Header */
-.navigation-item,
-.page-logo-link,
-.page-logo-footer-link,
-.address-link {
+.link {
   text-decoration: none;
 }
-/* Логотип */
+.list {
+  list-style: none;
+}
+/* Header */
 
-.page-logo-link {
+.logo-link {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-style: normal;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
-  align-items: center;
 }
 .studio-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
   color: #2e2f42;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  align-items: center;
 }
 /* щоб не було крапочок там де список */
 ul,
@@ -48,17 +36,18 @@ a {
   text-decoration: none;
 }
 .navigation-link:hover,
-.navigation-link:active,
 .navigation-link:focus {
   color: #404bbf;
 }
 .navigation-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
 }
 .address-link {
   font-style: normal;
@@ -68,8 +57,11 @@ a {
   color: #434455;
   letter-spacing: 0.02em;
 }
-
-/* Main */
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+/* ------------------------Main-------------------------- */
 .section-one {
   background-color: #2e2f42;
 }
@@ -119,7 +111,6 @@ a {
 }
 
 .title-two {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -132,17 +123,20 @@ a {
 .section-four {
   background-color: #f4f4fd;
 }
+.members-list {
+  background-color: #ffffff;
+}
+
 .members-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .members-position {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -155,7 +149,7 @@ a {
 .footer {
   background-color: #2e2f42;
 }
-.page-logo-footer-link {
+.logo-footer-link {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -189,8 +183,31 @@ a {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-/* PORTFOLIO */
+/*--------------------------- PORTFOLIO----------------------------*/
+
+.section-portfolio {
+  list-style: none;
+}
+
 .button-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-list {
+  list-style: none;
 }
 .portfolio-title {
   font-style: normal;
@@ -204,6 +221,14 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
